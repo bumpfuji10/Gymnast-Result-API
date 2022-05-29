@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  gymnast: one
+  fx: 1.5
+  ph: 1.5
+  sr: 1.5
+  vt: 1.5
+  pb: 1.5
+  hb: 1.5
+
+two:
+  gymnast: two
+  fx: 1.5
+  ph: 1.5
+  sr: 1.5
+  vt: 1.5
+  pb: 1.5
+  hb: 1.5
