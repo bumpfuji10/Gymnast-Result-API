@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_29_063052) do
+ActiveRecord::Schema.define(version: 2022_05_29_134753) do
 
   create_table "gymnasts", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.bigint "team_id", null: false
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "age"
     t.index ["team_id"], name: "index_gymnasts_on_team_id"
   end
 

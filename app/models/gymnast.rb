@@ -1,4 +1,4 @@
 class Gymnast < ApplicationRecord
   belongs_to :team
-  has_many :score
+  has_many :scores
 end
