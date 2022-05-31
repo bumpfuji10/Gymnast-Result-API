@@ -1,11 +1,9 @@
 module Mutations
   class CreateTeam < BaseMutation
-    graphql_name 'CreateTeam'
-
     field :team, Types::TeamType, null: true
     field :result, Boolean, null: true
 
-    argument :name, String, required: false
+    argument :name, String, required: true
 
     def resolve(**args)
       team = Team.create(name: args[:name])

@@ -1,7 +1,5 @@
 module Mutations
   class DeleteTeam < BaseMutation
-    graphql_name 'DeleteTeam'
-
     field :team, Types::TeamType, null: true
     field :result, Boolean, null: true
 
